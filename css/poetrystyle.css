@@ -1,0 +1,528 @@
+.wrapper {
+    width: 95%;
+    height: 10000px;
+    margin-left: 2.5%;
+}
+
+.hub {
+    line-height: 15px;
+    position: fixed;
+    z-index: -1;
+    font-family: libre baskerville, serif;
+}
+
+.connector {
+    font-style: italic;
+    color: red;
+    font-size: .8em;
+    position: fixed;
+    z-index: -1;
+}
+
+.2hub {
+    line-height: 15px;
+   position: inherit
+    z-index: 5;
+    font-family: libre baskerville, serif;
+}
+
+.2connector {
+    font-style: italic;
+    color: red;
+    font-size: .8em;
+position: inherit
+    z-index: 5;
+}
+
+.important {
+    font-weight: bold;
+}
+
+.title {           
+    z-index: 8;
+    font-family: oswald, sans-serif;
+    color: darkolivegreen;
+    font-weight: bold;
+    font-size: 1em
+}
+
+.unknown {          
+    position: fixed;
+    top: 1%;
+    left: 3%;
+
+}
+
+.known {            
+    position: fixed;
+    top: 1%;
+    right: 1%;
+
+}
+
+.question {            
+    position: fixed;
+    top: 1%;
+    z-index: 8;
+    font-family: oswald, sans-serif;
+    color: black;
+    font-weight: bold;
+    font-size: 1em;
+}
+
+#question-page {            
+    color: white;
+    font-weight: bold;
+    font-size: 1em;
+
+}
+
+.author-arrow {
+    position: absolute;
+    top: 715px;
+   
+    z-index: 8;
+    
+}
+
+.author-arrow:before {
+    content: '\2190';
+    font-size: 3em;
+    color: #DBA6A6;
+}
+
+.arrow-sticky {
+    position: fixed;
+    top: 715px;
+    left: 5%;
+    z-index: 8;
+    
+}
+
+.arrow-sticky:after {
+    content: '\2192';
+    font-size: 3em;
+    color: #DBA6A6;
+}
+
+.arrow-intro {
+    position: absolute;
+    
+}
+
+.arrow-intro:after {
+    content: '\2190';
+    font-size: 3em;
+    color: #DBA6A6;
+}
+
+.arrow-right {
+    position: absolute;
+    
+    
+}
+
+.arrow-right:after {
+    content: '\2190';
+    font-size: 3em;
+    color: #DBA6A6;
+}
+
+/*         sPaCiNG seCTioN  */
+
+.map {
+    z-index: -1;
+    position: relative;
+    top: -18150px;
+
+}
+
+.block {
+    background-color: white;
+    opacity: 1;
+}
+
+.block-one {
+    height: 150px;
+    width: 100%;
+    z-index: 2;
+}
+
+.block-two {
+    height: 20px;
+    width: 48%;
+    z-index: 2;
+}
+
+.block-three {
+    height: 20px;
+    z-index: 2;
+}
+
+.block-four {
+    height: 210px;
+    z-index: 2;
+}
+
+.block-five {
+    height: 210px;
+    z-index: 2;
+    bottom: 150px;
+    margin-left: 1px;
+}
+
+.block-six {
+    height: 45px;
+    z-index: 2;
+}
+
+
+/*                 is        */
+
+.is {
+    width: px;
+}
+
+img {
+    height: 200px;
+    width: 105%;
+    margin-top: 3px
+}
+
+/*                 intro   */
+
+
+.block-seven {
+    height: 45px;
+    z-index: 2;
+}
+
+.block-eight {
+    height: 45px;
+    z-index: 2;
+}
+
+.block-nine {
+    height: 2500px;
+    z-index: 2;
+    margin-top: px;
+}
+
+.block-ten {
+    background-color: ;
+    opacity: ;
+    height: 1500px;
+    z-index: 2;
+    margin-top: 680px;
+
+}
+
+.author {
+    top: 775px;
+    position: absolute;
+    z-index: 5;
+    font-family: oswald, sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    color: darkolivegreen;
+}
+
+.intro {
+    background-color: white;
+    line-height: 15px;
+    z-index: 5;
+    position: relative;
+    font-family: libre baskerville, serif;
+}
+
+.scroll-cover {
+    line-height: 15px;
+    height: 500px;
+    z-index: 4;
+    position: absolute;
+    top: 95%;
+    padding-left: 2.5%;
+}
+
+.scroll {
+    line-height: 15px;
+    height: 75px;
+    z-index: 4;
+    position: fixed;
+    top: 75%;
+    padding-left: 2.5%;
+    font-family: Libre Baskerville, serif;
+    font-weight: 900;
+    font-size: 1em;
+    color: rebeccapurple;
+    display: none;
+}
+
+
+
+
+/*                 target   */
+
+.sticky-target-box {
+    border: 2px dashed darkolivegreen;
+    height: 1px;
+    z-index: 4;
+    position: fixed;
+    top: 460px;
+    transform: rotate(90deg)
+}
+
+.target-box-intro {
+    /*border: 2px dashed rebeccapurple;*/
+    height: 300px;
+    z-index: 5;
+    position: absolute;
+    top: 120%;
+    padding: 1%;
+    
+
+}
+
+.target-box-one {
+    /*border: 2px dashed rebeccapurple;*/
+    height: 300px;
+    z-index: 5;
+    position: absolute;
+    margin-top: -1445px;
+    padding: 1%;
+   
+
+}
+
+.paragraph {
+    background-color: white;
+    line-height: 15px;
+    z-index: 5;
+    position: relative;
+    font-family: libre baskerville, serif;
+    font-size: .9em
+}
+
+/*                 test box build   */
+
+.map-cover-one { }
+
+.map-one {
+    height: 35px;
+    position: absolute;
+}
+
+.map-two {
+    height: 25px;
+    position: absolute;
+    margin-top: 35px;
+}
+
+.map-three {
+    height: 30px;
+    position: absolute;
+    margin-top: 60px;
+}
+
+.map-four {
+    height: 30px;
+    position: absolute;
+    margin-top: 90px;
+}
+
+.map-five {
+    height: 55px;
+    position: absolute;
+    margin-top: 120px;
+}
+
+.map-six {
+    height: 35px;
+    position: absolute;
+    margin-top: 175px;
+}
+
+.map-seven {
+    height: 20px;
+    position: absolute;
+    margin-top: 210px;
+}
+
+.map-eight {
+    height: 30px;
+    position: absolute;
+    margin-top: 230px;
+}
+
+.map-nine {
+    height: 65px;
+    position: absolute;
+    margin-top: 260px;
+}
+
+.map-eleven {
+    height: 65px;
+    position: absolute;
+    margin-top: 325px;
+}
+
+.map-twelve {
+    height: 25px;
+    position: absolute;
+    margin-top: 390px;
+}
+
+.map-thirteen {
+    height: 45px;
+    position: absolute;
+    margin-top: 415px;
+}
+
+.map-fourteen {
+    height: 30px;
+    position: absolute;
+    margin-top: 460px;
+}
+
+.map-fifteen {
+    height: 35px;
+    position: absolute;
+    margin-top: 490px;
+}
+
+.map-sixteen {
+    height: 25px;
+    position: absolute;
+    margin-top: 525px;
+}
+
+.map-seventeen {
+    height: 25px;
+    position: absolute;
+    margin-top: 550px;
+}
+
+.map-eighteen {
+    height: 45px;
+    position: absolute;
+    margin-top: 575px;
+}
+
+.map-nineteen {
+    height: 30px;
+    position: absolute;
+    margin-top: 620px;
+}
+
+.map-twenty {
+    height: 30px;
+    position: absolute;
+    margin-top: 650px;
+}
+
+.map-row-one {
+   height: inherit;
+    position: relative;
+    background-color: white;
+    opacity: 1;
+}
+
+.none { background: black;}
+
+
+
+
+
+
+#quality:hover {color: #DBA6A6}
+
+#within-this:hover {color: #DBA6A6}
+
+#as-illumination:hover {color: #DBA6A6}
+
+#that-distillation:hover {color: #DBA6A6}
+
+#we-learn:hover {color: #DBA6A6}
+
+#these-places:hover {color: #DBA6A6}
+
+#within-these-deep:hover {color: #DBA6A6}
+
+#the-womans:hover {color: #DBA6A6}
+
+#when-we-view:hover {color: #DBA6A6}
+
+#we-learn-more:hover {color: #DBA6A6}
+
+#but-as-we:hover {color: #DBA6A6}
+
+#at-this-point:hover {color: #DBA6A6}
+
+#and-we-come:hover {color: #DBA6A6}
+
+#for-women-then:hover {color: #DBA6A6}
+
+#it-forms-the:hover {color: #DBA6A6}
+
+#poetry-is-the:hover {color: #DBA6A6}
+
+#as-they-become:hover {color: #DBA6A6}
+
+#right-now-i:hover {color: #DBA6A6}
+
+#poetry-is-not:hover {color: #DBA6A6}
+
+#the-black-mothers:hover {color: #DBA6A6}
+
+#poetry-coins-the:hover {color: #DBA6A6}
+
+#however-experience-has:hover {color: #DBA6A6}
+
+
+
+
+.copy {
+    line-height: 15px;
+    margin-top: 1200px;
+    margin-bottom: 10px;
+    background-color: white;
+    z-index: 2;
+    font-family: oswald, sans-serif;
+    color:#DBA6A6;
+}
+
+@media (max-width:480px) {
+
+    div.connector { display: none; }
+    div.is { display: none; }
+    div.target-box-in { display: none; } 
+    div.sticky-target-box { display: none; } 
+    div.arrow-sticky { display: none; } 
+    div.unknown { display: none; } 
+    div.known { display: none; } 
+    div.author-arrow { display: none; } 
+    div.question { display: none; } 
+    div.copy { display: none; } 
+    
+    
+    div.block { height: 50px; } 
+    div.hub { display: none; } 
+    div.hub { display: none; } 
+    div.hub { display: none; } 
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
